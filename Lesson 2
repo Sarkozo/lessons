@@ -1,0 +1,6 @@
+def func_name(arg, s):
+    ans = arg
+    for i in range(s - 1):
+        ans *= arg
+    return ans
+print(func_name(9, 5)) 
