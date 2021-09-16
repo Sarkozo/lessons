@@ -1,10 +1,8 @@
-def exponentiation(arg, pwr):
+def func_name(arg, s):
     ans = 1
-    for i in range(pwr):
+    for i in range(s):
         ans *= arg
-        
-    return ans
+        return ans
 
 
-if __name__ == '__main__':
-    print(exponentiation(9, 5)) 
+print(func_name(9, 5)) 
